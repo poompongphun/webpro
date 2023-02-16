@@ -68,12 +68,12 @@
 
             <!-- ข้อ 2 ----------------------------------------------------------------- -->
             <div id='ex2'>
-                <img v-if="number_runner == 0" src="./image/0.svg">
-                <img v-else-if="number_runner == 1" src="./image/1.svg">
-                <img v-else-if="number_runner == 2" src="./image/2.svg">
-                <img v-else-if="number_runner == 3" src="./image/3.svg">
-                <img v-else-if="number_runner == 4" src="./image/4.svg">
-                <img v-else src="./image/5.svg">
+                <img v-show="number_runner == 0" src="./image/0.svg">
+                <img v-show="number_runner == 1" src="./image/1.svg">
+                <img v-show="number_runner == 2" src="./image/2.svg">
+                <img v-show="number_runner == 3" src="./image/3.svg">
+                <img v-show="number_runner == 4" src="./image/4.svg">
+                <img v-show="number_runner == 5" src="./image/5.svg">
             </div>
 
             <hr>
